@@ -1,5 +1,5 @@
 import express from "express";
-import dotenv from "dotenv";
+
 import path from "path";
 import connectDB from "./config/db.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
@@ -11,7 +11,7 @@ import productRouter from "./routes/productRoutes.js";
 import userRouter from "./routes/userRoutes.js";
 import uploadRouter from "./routes/uploadRoutes.js";
 
-dotenv.config();
+require("dotenv").config({ path: "ENV_FILENAME" });
 
 connectDB();
 
