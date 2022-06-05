@@ -50,7 +50,7 @@ const RegisterScreen = () => {
           <Form.Control
             type="name"
             required
-            placeholder="Enter your full name"
+            placeholder="Nombre Completo"
             value={name}
             onChange={(e) => setName(e.target.value)}
           ></Form.Control>
@@ -61,7 +61,7 @@ const RegisterScreen = () => {
           <Form.Control
             type="email"
             required
-            placeholder="Enter email"
+            placeholder="Ingresa tu email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           ></Form.Control>
@@ -72,7 +72,7 @@ const RegisterScreen = () => {
           <Form.Control
             type="password"
             required
-            placeholder="Enter password"
+            placeholder="Ingresa una contraseña"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           ></Form.Control>
@@ -83,14 +83,14 @@ const RegisterScreen = () => {
           <Form.Control
             type="password"
             required
-            placeholder="Confirm password"
+            placeholder="Confirma tu Contraseña"
             value={confirmPassword}
             onChange={(e) => setComfirmPassword(e.target.value)}
           ></Form.Control>
         </Form.Group>
         <br />
         <Button type="submit" variant="outline-primary">
-          Registrre <i className="fas fa-user-plus"></i>
+          Registrarse <i className="fas fa-user-plus"></i>
         </Button>
       </Form>
       <Row className="py-3">
