@@ -1,5 +1,5 @@
 main {
-  min-width: 80vh;
+  min-height: 80vh;
 }
 h3 {
   padding: 1rem 0;
@@ -22,8 +22,8 @@ h1 {
 
 .brand_body {
   font-size: 18px;
-  font-family: "YellowTail", sans-serif;
-  background-color: #010a07;
+  font-family: "Yellowtail", sans-serif;
+  background-color: #010a01;
   background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png");
 }
 .hot {
@@ -45,6 +45,7 @@ h1 {
 .webdesigntuts-workshop {
   position: unset;
 }
+
 .webdesigntuts-workshop input {
   background: #222;
   background: linear-gradient(#333, #222);
@@ -129,6 +130,7 @@ h1 {
   box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
   top: 1px;
 }
+
 @keyframes glow {
   0% {
     border-color: #1e3163;
